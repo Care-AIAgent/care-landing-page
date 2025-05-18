@@ -1,14 +1,15 @@
 import React from 'react';
 
-function App() {
+export default function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 text-gray-900">
-      <header className="text-center py-10">
-        <h1 className="text-4xl font-bold">CARE: The Human Touch in a Digital World</h1>
-        <p className="mt-4 text-xl">AI-Powered Support for Every Life Challenge</p>
-      </header>
+    <div style={{ fontFamily: 'Arial, sans-serif', padding: '2rem', maxWidth: '800px', margin: 'auto' }}>
+      <h1>CARE AI Agent</h1>
+      <p>The Human Touch in a Digital World.</p>
+      <section>
+        <h2>Token Sale</h2>
+        <p>Join the $CARE token sale to support our AI Agent development.</p>
+        <button onClick={() => alert('Token sale coming soon!')}>Learn More</button>
+      </section>
     </div>
   );
 }
-
-export default App;
