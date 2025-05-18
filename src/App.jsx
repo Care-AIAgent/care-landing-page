@@ -5,6 +5,9 @@ export default function App() {
     <div style={{ fontFamily: 'Arial, sans-serif', padding: '2rem', maxWidth: '800px', margin: 'auto' }}>
       <h1>CARE AI Agent</h1>
       <p>The Human Touch in a Digital World.</p>
+	  
+	   <p>Bringing emotional intelligence to digital interactions.</p>
+	   
       <section>
         <h2>Token Sale</h2>
         <p>Join the $CARE token sale to support our AI Agent development.</p>
